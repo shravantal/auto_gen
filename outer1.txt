@@ -1,0 +1,5 @@
+Just realized that if you use --name-only to print the filenames, pretty format as empty string, and use this method to sort, uniq, and sort by top number of commits, in *nix/OS X, you could use:
+
+git log --name-only --author=John --pretty=format: | sort | uniq -c | sort -nr
+Be sure that you are using the right author.
+
