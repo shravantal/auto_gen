@@ -3,3 +3,5 @@ Just realized that if you use --name-only to print the filenames, pretty format 
 git log --name-only --author=John --pretty=format: | sort | uniq -c | sort -nr
 Be sure that you are using the right author.
 
+uu
+uudhvfhvfhcvdshchevdgcvgdf
