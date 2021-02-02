@@ -1,7 +1,13 @@
-Just realized that if you use --name-only to print the filenames, pretty format as empty string, and use this method to sort, uniq, and sort by top number of commits, in *nix/OS X, you could use:
+public class AddTwoIntegers {
 
-git log --name-only --author=John --pretty=format: | sort | uniq -c | sort -nr
-Be sure that you are using the right author.
+    public static void main(String[] args) {
+        
+        int first = 10;
+        int second = 20;
 
-uu
-uudhvfhvfhcvdshchevdgcvgdf
+        System.out.println("Enter two numbers: " + first + " " + second);
+        int sum = first + second;
+
+        System.out.println("The sum is: " + sum);
+    }
+}
