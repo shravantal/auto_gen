@@ -1,3 +1,5 @@
+// Auto-generated
+generated
 public class AddTwoIntegers {
 
     public static void main(String[] args) {
